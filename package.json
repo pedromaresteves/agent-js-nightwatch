@@ -7,7 +7,7 @@
   "author": "ReportPortal.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/reportportal/agent-js-nightwatch.git"
+    "url": "https://github.com/pedromaresteves/agent-js-nightwatch.git"
   },
   "scripts": {
     "build": "npm run clean && tsc",
