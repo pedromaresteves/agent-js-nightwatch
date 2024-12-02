@@ -1,5 +1,5 @@
 {
-  "name": "@reportportal/agent-js-nightwatch",
+  "name": "@pedromaresteves/agent-js-nightwatch",
   "version": "5.0.2",
   "description": "Agent for integration Nightwatch with ReportPortal.",
   "main": "build/index.js",
@@ -7,7 +7,7 @@
   "author": "ReportPortal.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pedromaresteves/agent-js-nightwatch.git"
+    "url": "git+https://github.com/pedromaresteves/agent-js-nightwatch.git"
   },
   "scripts": {
     "build": "npm run clean && tsc",
@@ -56,5 +56,9 @@
     "nightwatch",
     "reporters",
     "reportportal"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/pedromaresteves/agent-js-nightwatch/issues"
+  },
+  "homepage": "https://github.com/pedromaresteves/agent-js-nightwatch#readme"
 }
