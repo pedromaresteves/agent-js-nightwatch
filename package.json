@@ -1,6 +1,5 @@
 {
   "name": "@reportportal/agent-js-nightwatch",
-  "private": true,
   "version": "5.0.2",
   "description": "Agent for integration Nightwatch with ReportPortal.",
   "main": "build/index.js",
@@ -11,6 +10,7 @@
     "url": "https://github.com/reportportal/agent-js-nightwatch.git"
   },
   "scripts": {
+    "postinstall": "npm run build",
     "build": "npm run clean && tsc",
     "clean": "rimraf ./build",
     "lint": "eslint \"src/**/*.ts\"",
