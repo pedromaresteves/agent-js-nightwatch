@@ -11,7 +11,7 @@
   },
   "scripts": {
     "preinstall": "npm install",
-    "postinstall": "npm run build",
+    "prepare": "npm run build",
     "build": "npm run clean && tsc",
     "clean": "rimraf ./build",
     "lint": "eslint \"src/**/*.ts\"",
