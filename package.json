@@ -10,6 +10,8 @@
     "url": "https://github.com/reportportal/agent-js-nightwatch.git"
   },
   "scripts": {
+    "preinstall": "npm install",
+    "prepare": "npm run build",
     "build": "npm run clean && tsc",
     "clean": "rimraf ./build",
     "lint": "eslint \"src/**/*.ts\"",
