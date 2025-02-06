@@ -1,5 +1,5 @@
 {
-  "name": "@reportportal/agent-js-nightwatch-fork-pedro",
+  "name": "@pedromaresteves/agent-js-nightwatch-fork",
   "version": "5.0.2",
   "description": "Agent for integration Nightwatch with ReportPortal.",
   "main": "build/index.js",
